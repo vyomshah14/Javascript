@@ -42,3 +42,6 @@ console.log(sumOfNumbers(10, 20));
 // function call
 const sumOfnumber = (para1, para2) => para1 + para2;
 console.log(sumOfnumber(10));
+// default parameters
+const SumOfNumbers = (para1, para2 = 1) => para1 + para2;
+console.log(SumOfNumbers(3, 5));
