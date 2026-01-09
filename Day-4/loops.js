@@ -1,9 +1,8 @@
-// //for loop
-// for (let i = 0; i < 5; i++) {
-//     alert("HHello js")
+//for loop
+for (let i = 0; i < 5; i++) {
+    alert("HHello js")
 
-// }
-// break
+}
 for (let l = 1; l <= 5; l++) {
     
     if (l === 2) 
