@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <div id = "box"> 
+        Hello      
+        <span>  world</span>
+    </div>
+    <!-- <div class = "about sec"> 
+            Hello </div> -->
+    <script> 
+        let box = document.getElementById("box");
+        let v = document.getElementsByClassName("about sec");
+        
+        // console.log(box);
+        // console.log(v);
+        let spantag = document.querySelector("div");
+        // console.log(spantag.outerHTML);
+        // // remove child (span)
+        let div = document.getElementById("box");
+        let span = div.querySelector("span");
+    
+        // div.removeChild(span);
+        // console.log(div.outerHTML);
+        // // by one line
+        // div.remove(span)
+        // console.log(div.outerHTML);
+
+        // replace
+    //    div.replaceChild(document.createElement("p"), span);
+    //     let p = div.querySelector("p");
+    //     p.textContent = "Hello World";
+    //     console.log(div.outerHTML);
+        
+        //replacewith
+        // let replaced = div.replaceWith("<p></p>");
+        // console.log(replaced);
+
+        console.log(div.innerHTML);
+        console.log(div.innerText);
+        console.log(div.textContent);
+</script>
+</body>
+</html>
